@@ -1,0 +1,23 @@
+1 git init
+2 git remote add origin https://github.com/RafaelFerreyra/20230605-RafaelFerreyra.git
+3  touch comandos.txt main.js index.html
+4  git add .
+5  git commit -m "commit 01 de RafaelFerreyra"
+6  git push origin main
+7  git branch feature01
+8  git checkout feature01
+9  mkdir Terminal Hardware
+10  cd Terminal
+11  touch resumen.txt
+12  cd ..
+13  cd Hardware
+14  touch resumen.txt
+15  cd ..
+17  git add .
+18  git commit -m "commit 02 de RafaelFerreyra"
+19  git push origin feature01
+20  git checkout -b feature02 feature01
+21  git add .
+22  git Commit 04 de RafaelFerreyra
+23  git push origin feature02
+24  history
